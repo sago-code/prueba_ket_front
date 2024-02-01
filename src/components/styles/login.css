@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    min-width: 30%;
+}
+
+.image-container {
+    display: block;
+    width: 70%;
+    overflow: hidden;
+}
