@@ -11,6 +11,9 @@ export function Login() {
     return (
         <Fragment>
             <div className='container'>
+                <div className='image-container-mb'>
+                    <img src={students} alt="Students" className="students-image" />
+                </div>
                 <div className='login-form'>
                     <h1 className='login-title'>Inicio de sesión</h1>
                     <form>
@@ -40,8 +43,8 @@ export function Login() {
                     </form>
                 </div>
                 <div className='image-container'>
-                        <img src={students} alt="Students" className="students-image" />
-                    </div>
+                    <img src={students} alt="Students" className="students-image" />
+                </div>
             </div>
         </Fragment>
     );

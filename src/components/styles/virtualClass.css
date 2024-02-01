@@ -1,11 +1,56 @@
-.videoClass {
+.videoClass{
+    width: 80%;
+    display: block;
+}
+
+.videoClass iframe{
     height: 36em;
-    width: 70%;
+    width: 100%;
     display: block;
 }
 
 .messageZone {
     display: flex;
+    width: 20%;
+    justify-content: flex-end;
     align-items: flex-end;
-    flex-direction: column;
+}
+
+.messageZone p{visibility: hidden; font-size: 15pt; margin: 0px;}
+
+.messageZone form{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.messageZone div{
+    display: flex;
+    width: 100%;
+    border: 2px solid #373737;
+    border-left: 0px;
+    border-right: 0px;
+    position: relative;
+}
+
+.messageZone input{
+    display: flex;
+    width: 100%;
+    border-radius: 0px;
+    background: transparent;
+    border: none;
+    padding: 10px 0px 10px 5px;
+    font-size: 10pt;
+}
+
+.messageZone button{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    border-radius: 0px;
+    background: #83838387;
+    border: none;
+    align-items: center;
+    position: absolute;
+    right: 0px;
 }
